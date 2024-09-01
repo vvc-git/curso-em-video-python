@@ -1,0 +1,5 @@
+name = str(input('\nWrite your full name: ')).strip()
+separa = name.split()
+print(20*'*')
+print('Your first name is: {}'.format(separa[0]))
+print('Your last name is : {}'.format(separa[-1]))
